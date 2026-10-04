@@ -11,27 +11,12 @@ VELOCITY                = 0xffff0010
 BOT_X                   = 0xffff0020
 BOT_Y                   = 0xffff0024
 
-NUM_CARROTS             = 0xffff0040
-NUM_BUNNIES_CARRIED     = 0xffff0050
-
-SEARCH_BUNNIES          = 0xffff0054
-CATCH_BUNNY             = 0xffff0058
-PUT_BUNNIES_IN_PLAYPEN  = 0xffff005c
-
-PLAYPEN_LOCATION        = 0xffff0044
-
-SCORES_REQUEST          = 0xffff1018
-
 TIMER                   = 0xffff001c
 
 BONK_INT_MASK           = 0x1000      ## Bonk
 BONK_ACK                = 0xffff0060  ## Bonk
 TIMER_INT_MASK          = 0x8000      ## Timer
 TIMER_ACK               = 0xffff006c  ## Timer
-EX_CARRY_LIMIT_INT_MASK = 0x4000      ## Exceeding Carry Limit
-EX_CARRY_LIMIT_ACK      = 0xffff002c  ## Exceeding Carry Limit
-
-MMIO_STATUS             = 0xffff204c
 
 .data
 
